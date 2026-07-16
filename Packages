@@ -18,7 +18,7 @@ SHA256: bcb33c49c19a9f5ba6ff9c42ff2b8c969a42ccb889987fec510dfea34878d1ee
 
 Package: com.kvlabs.hermes-ios-settings
 Name: Hermes-iOS Settings
-Version: 0.1.3-1
+Version: 0.1.4-1
 Architecture: iphoneos-arm
 Section: System
 Priority: optional
@@ -26,12 +26,12 @@ Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>=
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: Hermes-iOS PreferenceLoader settings pane
- Adds a custom visible Hermes-iOS Settings controller with status info and manual
- controls while keeping platform and active-agent identities separate.
+ Adds Hermes-iOS status controls plus a safe config editor for Telegram/model
+ fields that writes only /var/mobile/Library/Hermes-iOS/config.yaml.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-ios-settings_0.1.3-1_iphoneos-arm.deb
-Size: 13056
-SHA256: 63e8455a4fa5c2bf94b50eb7cf4229d24c826c5d6af9797a8e923ec283f58987
+Filename: debs/com.kvlabs.hermes-ios-settings_0.1.4-1_iphoneos-arm.deb
+Size: 14832
+SHA256: 0e0e132e22a0b96c3a429791f7828e5919222019010c640b307473648b0391f3
 
 Package: com.kvlabs.hermes-ios-status
 Name: Hermes-iOS Status Bus
