@@ -167,6 +167,23 @@ Filename: debs/com.kvlabs.nordmesh-core_1.1.6-1_iphoneos-arm.deb
 Size: 3079642
 SHA256: 8df2ba13e7a53341042672ebb468c71db46c736234b1ea12dea939d8ed4ed67f
 
+Package: com.kvlabs.nordmesh-core
+Name: KVLabs NordMesh Core
+Version: 1.1.7-1
+Architecture: iphoneos-arm
+Section: Networking
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow
+ Installs nordmeshctl, signed WireGuard userspace tools, DERP bridge launcher, sanitized status/cache paths, and safe enable/disable/status plumbing.
+ No credentials, tokens, sessions, or old runtime state are bundled.
+Homepage: https://trawww.github.io/kvlabs/
+Filename: debs/com.kvlabs.nordmesh-core_1.1.7-1_iphoneos-arm.deb
+Size: 3085084
+SHA256: 73520442cee7a130fb636a4a3a82dd0a40ea7dc133ee29d79a70ca02806415dd
+
 Package: com.kvlabs.nordmesh-ui
 Name: KVLabs NordMesh Settings
 Version: 1.0.0-1
@@ -200,6 +217,23 @@ Homepage: https://trawww.github.io/kvlabs/
 Filename: debs/com.kvlabs.nordmesh-ui_1.1.2-1_iphoneos-arm.deb
 Size: 7644
 SHA256: c79fd38fdc1c939fead61dd938ec44bac0b1940474e98518cd8f21c9fde4acb9
+
+Package: com.kvlabs.nordmesh-ui
+Name: KVLabs NordMesh Settings
+Version: 1.1.3-1
+Architecture: iphoneos-arm
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.2-1)
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Description: PreferenceLoader panel and Substrate VPN indicator bridge for KVLabs NordMesh
+ Adds a Settings.app panel for nordmeshctl and a SpringBoard indicator shim that mirrors the KVLabs Meshnet live marker.
+ No credentials, tokens, sessions, or old runtime state are bundled.
+Homepage: https://trawww.github.io/kvlabs/
+Filename: debs/com.kvlabs.nordmesh-ui_1.1.3-1_iphoneos-arm.deb
+Size: 7746
+SHA256: 12249ec84e59a837f12de2020e67ae7651d3fd043e0aa66cdd8d5877417dae2b
 
 Package: com.kvlabs.python3119
 Name: KVLabs Python 3.11.9
