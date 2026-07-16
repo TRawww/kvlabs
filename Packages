@@ -18,7 +18,7 @@ SHA256: bcb33c49c19a9f5ba6ff9c42ff2b8c969a42ccb889987fec510dfea34878d1ee
 
 Package: com.kvlabs.hermes-ios-settings
 Name: Hermes-iOS Settings
-Version: 0.1.8-1
+Version: 0.1.9-1
 Architecture: iphoneos-arm
 Section: System
 Priority: optional
@@ -26,11 +26,11 @@ Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>=
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: Hermes-iOS PreferenceLoader settings pane
- Live status rows and Start/Stop/Restart/Doctor controls wired to hermes-iosctl.
+ Fixes PID/uptime display and reports supported OpenAI Codex model.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-ios-settings_0.1.8-1_iphoneos-arm.deb
-Size: 12466
-SHA256: 78d626460b0800bd34d16807056bb7d9cd2ba889c5e2a7636cadff692aae6520
+Filename: debs/com.kvlabs.hermes-ios-settings_0.1.9-1_iphoneos-arm.deb
+Size: 12510
+SHA256: cb4bf0560e65cbc20092dc9cec3c143190b547948ad76ec0ddd60b928c51d559
 
 Package: com.kvlabs.hermes-ios-status
 Name: Hermes-iOS Status Bus
