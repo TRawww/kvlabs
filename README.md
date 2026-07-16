@@ -21,3 +21,7 @@ python3 scripts/build_repo.py
 ```
 
 Commit the generated files.
+
+## Management
+
+See [`MANAGEMENT.md`](MANAGEMENT.md) for adding, updating, removing, validating, and publishing packages.
