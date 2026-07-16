@@ -1,57 +1,71 @@
-Package: com.kvlabs.hermes-ios-control
-Name: Hermes-iOS Control
+Package: com.kvlabs.hermes-ios-autostart
+Name: Hermes-iOS Autostart
 Version: 0.1.1-1
 Architecture: iphoneos-arm
 Section: System
 Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.hermes-runtime (>= 0.16.0-1), com.kvlabs.python3119 (>= 3.11.9-1)
+Depends: firmware (>= 12.0), com.kvlabs.hermes-ios-control (>= 0.1.3-1), com.kvlabs.hermes-runtime (>= 0.16.1-1)
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Description: Hermes-iOS LaunchDaemon autostart helper
+ Provides a constrained setuid helper to enable, disable, or report Hermes-iOS boot autostart.
+Homepage: https://trawww.github.io/kvlabs/
+Filename: debs/com.kvlabs.hermes-ios-autostart_0.1.1-1_iphoneos-arm.deb
+Size: 3500
+SHA256: 191c4dd06e605b3337bb2d2b819bc0eafc814046b90d6d4f5eea7c72961efdb3
+
+Package: com.kvlabs.hermes-ios-control
+Name: Hermes-iOS Control
+Version: 0.1.3-1
+Architecture: iphoneos-arm
+Section: System
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.hermes-runtime (>= 0.16.1-1), com.kvlabs.python3119 (>= 3.11.9-1)
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: Hermes-iOS platform control layer
- Provides Hermes-iOS control commands, status.json generation, state/log path setup,
- active-agent reporting, and Darwin notification posts for status/config changes.
- Uses Hermes-iOS naming for reusable platform infrastructure.
+ Provides hermes-iosctl and start/stop/restart/status/doctor commands.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-ios-control_0.1.1-1_iphoneos-arm.deb
-Size: 4752
-SHA256: bcb33c49c19a9f5ba6ff9c42ff2b8c969a42ccb889987fec510dfea34878d1ee
+Filename: debs/com.kvlabs.hermes-ios-control_0.1.3-1_iphoneos-arm.deb
+Size: 4320
+SHA256: 2d77f0ca1a3ccbe652489845b7725e7fd706638712be8f84eaf61d1f313f8f7e
 
 Package: com.kvlabs.hermes-ios-settings
 Name: Hermes-iOS Settings
-Version: 0.1.9-1
+Version: 0.1.12-1
 Architecture: iphoneos-arm
 Section: System
 Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>= 0.1.1-1), com.kvlabs.hermes-ios-status (>= 0.1.0-1)
+Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>= 0.1.3-1), com.kvlabs.hermes-ios-status (>= 0.1.1-1), com.kvlabs.hermes-ios-autostart (>= 0.1.1-1)
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: Hermes-iOS PreferenceLoader settings pane
- Fixes PID/uptime display and reports supported OpenAI Codex model.
+ Live status, manual controls, and boot autostart controls for Hermes-iOS.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-ios-settings_0.1.9-1_iphoneos-arm.deb
-Size: 12510
-SHA256: cb4bf0560e65cbc20092dc9cec3c143190b547948ad76ec0ddd60b928c51d559
+Filename: debs/com.kvlabs.hermes-ios-settings_0.1.12-1_iphoneos-arm.deb
+Size: 12762
+SHA256: 3f5bc4ae36633958d8b2236a030bf0be61debc4abe2a682a2e102c82e9221196
 
 Package: com.kvlabs.hermes-ios-status
 Name: Hermes-iOS Status Bus
-Version: 0.1.0-1
+Version: 0.1.1-1
 Architecture: iphoneos-arm
 Section: System
 Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.hermes-ios-control (>= 0.1.0-1)
+Depends: firmware (>= 12.0), com.kvlabs.hermes-ios-control (>= 0.1.3-1)
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: Hermes-iOS status schema and status bus paths
  Defines /var/mobile/Library/Hermes-iOS/status.json and the Hermes-iOS
  status/config Darwin notification names for reusable platform status reporting.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-ios-status_0.1.0-1_iphoneos-arm.deb
-Size: 1244
-SHA256: 526743e22e2f5babe4a5c855cea307ad17beaf92b04f3998d88cd1247fd3eeae
+Filename: debs/com.kvlabs.hermes-ios-status_0.1.1-1_iphoneos-arm.deb
+Size: 1246
+SHA256: 61eb1528d5301e866a2e476adaecaa10609ee3c93e0f7b84dcd130ba0e38a2f4
 
 Package: com.kvlabs.hermes-runtime
 Name: KVLabs Hermes Runtime
-Version: 0.16.0-1
+Version: 0.16.1-1
 Architecture: iphoneos-arm
 Section: Development
 Priority: optional
@@ -59,14 +73,13 @@ Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), libffi, libssl
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: Reproducible Hermes runtime for iOS 12 checkm8/Substrate systems
- Installs Hermes and its Python dependencies into a stable system runtime path.
- Mutable state and logs are kept outside the runtime tree under /var/mobile/Library.
- Includes manual start, stop, restart, status, and doctor commands.
- Automatic startup and UI control hooks are intentionally separate packages.
+ Installs Hermes and its Python dependencies into /usr/local/lib/hermes-ios.
+ Mutable state and logs are kept outside the runtime tree under /var/mobile/Library/Hermes-iOS.
+ Manual control, autostart, and Settings UI are provided by separate packages.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-runtime_0.16.0-1_iphoneos-arm.deb
-Size: 23020620
-SHA256: 8541867b25b5b71ff2c1562c5ae9f0f25788fa885c08511228fbd40d9dde164d
+Filename: debs/com.kvlabs.hermes-runtime_0.16.1-1_iphoneos-arm.deb
+Size: 23018476
+SHA256: 7bb427813e5f95215c436f8f7e64f38fa655d0bf597add3b947d391f9a595076
 
 Package: com.kvlabs.python3119
 Name: KVLabs Python 3.11.9
