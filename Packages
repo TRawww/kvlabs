@@ -1,3 +1,55 @@
+Package: com.kvlabs.hermes-ios-control
+Name: Hermes-iOS Control
+Version: 0.1.1-1
+Architecture: iphoneos-arm
+Section: System
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.hermes-runtime (>= 0.16.0-1), com.kvlabs.python3119 (>= 3.11.9-1)
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Description: Hermes-iOS platform control layer
+ Provides Hermes-iOS control commands, status.json generation, state/log path setup,
+ active-agent reporting, and Darwin notification posts for status/config changes.
+ Uses Hermes-iOS naming for reusable platform infrastructure.
+Homepage: https://trawww.github.io/kvlabs/
+Filename: debs/com.kvlabs.hermes-ios-control_0.1.1-1_iphoneos-arm.deb
+Size: 4752
+SHA256: bcb33c49c19a9f5ba6ff9c42ff2b8c969a42ccb889987fec510dfea34878d1ee
+
+Package: com.kvlabs.hermes-ios-settings
+Name: Hermes-iOS Settings
+Version: 0.1.0-1
+Architecture: iphoneos-arm
+Section: System
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>= 0.1.0-1), com.kvlabs.hermes-ios-status (>= 0.1.0-1)
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Description: Hermes-iOS PreferenceLoader settings pane
+ Adds a Hermes-iOS Settings pane that identifies the platform separately from
+ the active agent and points to Hermes-iOS control, config, and status paths.
+Homepage: https://trawww.github.io/kvlabs/
+Filename: debs/com.kvlabs.hermes-ios-settings_0.1.0-1_iphoneos-arm.deb
+Size: 7838
+SHA256: 9b6e89af2129bddb7098a1ac04880fe553f2bd1756271f056346ecf47c462758
+
+Package: com.kvlabs.hermes-ios-status
+Name: Hermes-iOS Status Bus
+Version: 0.1.0-1
+Architecture: iphoneos-arm
+Section: System
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.hermes-ios-control (>= 0.1.0-1)
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Description: Hermes-iOS status schema and status bus paths
+ Defines /var/mobile/Library/Hermes-iOS/status.json and the Hermes-iOS
+ status/config Darwin notification names for reusable platform status reporting.
+Homepage: https://trawww.github.io/kvlabs/
+Filename: debs/com.kvlabs.hermes-ios-status_0.1.0-1_iphoneos-arm.deb
+Size: 1244
+SHA256: 526743e22e2f5babe4a5c855cea307ad17beaf92b04f3998d88cd1247fd3eeae
+
 Package: com.kvlabs.hermes-runtime
 Name: KVLabs Hermes Runtime
 Version: 0.16.0-1
