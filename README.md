@@ -1,6 +1,6 @@
 # KVLabs iOS Jailbreak Repo
 
-APT/Cydia/Sileo/Zebra repo for Sparrow/KVLabs jailbreak packages.
+APT/Cydia/Sileo/Zebra repo for KVLabs jailbreak and iOS runtime packages.
 
 Once GitHub Pages is enabled, add this repo in Cydia/Sileo/Zebra:
 

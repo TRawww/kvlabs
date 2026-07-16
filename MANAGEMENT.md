@@ -76,7 +76,7 @@ curl -L https://trawww.github.io/kvlabs/Packages
 curl -L https://trawww.github.io/kvlabs/Packages.gz | gzip -dc
 ```
 
-## Validate from Sparrow/iPhone
+## Validate from target iPhone
 
 After adding the repo to the package manager, refresh sources and confirm the package appears.
 
@@ -91,7 +91,7 @@ apt-cache policy <package-name>
 
 - `scripts/build_repo.py` requires `dpkg-deb` when actual `.deb` files exist.
 - Empty repo state is valid: `Packages` can be empty while `Release` still exists.
-- Keep package identifiers lowercase and namespaced, e.g. `com.kvlabs.sparrowprefs`.
+- Keep package identifiers lowercase and namespaced, e.g. `com.kvlabs.preferences`.
 - For iOS 12/Substrate packages, prefer classic `iphoneos-arm` package architecture unless the package has a reason to do otherwise.
 - Sign binaries/tweaks for iOS 12 with `ldid` before packaging.
-- Do not publish secrets, tokens, device-specific `.env`, or private Sparrow runtime state into this repo.
+- Do not publish secrets, tokens, device-specific `.env`, or private runtime state into this repo.

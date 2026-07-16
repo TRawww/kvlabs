@@ -7,12 +7,12 @@ Priority: optional
 Depends: firmware (>= 12.0), libffi, libssl1.1.1, libssl-dev, gettext
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
-Description: Python 3.11.9 runtime for iOS 12 checkm8/Substrate Sparrow rebuilds
+Description: Python 3.11.9 runtime for iOS 12 checkm8/Substrate systems
  A self-contained /usr/local Python 3.11.9 runtime built and validated on
  iPhone 6s iOS 12.5.8 with checkm8, Cydia Substrate, and PreferenceLoader.
  Includes pip, setuptools, wheel, SSL, ctypes, sqlite3, zlib, bz2, lzma,
- pyexpat, and Sparrow iOS bootstrap compatibility shims.
+ pyexpat, and iOS jailbreak runtime compatibility shims.
 Homepage: https://trawww.github.io/kvlabs/
 Filename: debs/com.kvlabs.python3119_3.11.9-1_iphoneos-arm.deb
-Size: 25586056
-SHA256: e26662df86b11e1b8afb9d7fc4cee27e0cc2cecaafb7f12613a7c7eb537dcf39
+Size: 25586050
+SHA256: d22ba5f363660521e800ab4d2bc63f410d72f2901378f1ccb0ca5f44d24f4d6a
