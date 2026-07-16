@@ -18,7 +18,7 @@ SHA256: bcb33c49c19a9f5ba6ff9c42ff2b8c969a42ccb889987fec510dfea34878d1ee
 
 Package: com.kvlabs.hermes-ios-settings
 Name: Hermes-iOS Settings
-Version: 0.1.6-1
+Version: 0.1.7-1
 Architecture: iphoneos-arm
 Section: System
 Priority: optional
@@ -26,12 +26,11 @@ Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>=
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: Hermes-iOS PreferenceLoader settings pane
- Applies Sparrow backup PreferenceLoader metadata rules: id/defaults/key/get/set
- on live rows plus Hermes-iOS controls and safe config-editor placeholder.
+ Binary-plist SparrowPrefs-style pane with live metadata on every row.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-ios-settings_0.1.6-1_iphoneos-arm.deb
-Size: 11630
-SHA256: 746a1ab9095ea2f860af6749eb87ab241ae636d09a9b9b6fa629690fc27e854b
+Filename: debs/com.kvlabs.hermes-ios-settings_0.1.7-1_iphoneos-arm.deb
+Size: 11684
+SHA256: 43a37c2183b10dc36ddcb3fbb884d5d2f8fa1fc6f2d316f2c9f504745543aec2
 
 Package: com.kvlabs.hermes-ios-status
 Name: Hermes-iOS Status Bus
