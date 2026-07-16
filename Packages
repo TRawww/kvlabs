@@ -224,7 +224,7 @@ Version: 1.1.3-1
 Architecture: iphoneos-arm
 Section: Tweaks
 Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.2-1)
+Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.7-1)
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: PreferenceLoader panel and Substrate VPN indicator bridge for KVLabs NordMesh
@@ -232,8 +232,8 @@ Description: PreferenceLoader panel and Substrate VPN indicator bridge for KVLab
  No credentials, tokens, sessions, or old runtime state are bundled.
 Homepage: https://trawww.github.io/kvlabs/
 Filename: debs/com.kvlabs.nordmesh-ui_1.1.3-1_iphoneos-arm.deb
-Size: 7746
-SHA256: 12249ec84e59a837f12de2020e67ae7651d3fd043e0aa66cdd8d5877417dae2b
+Size: 7750
+SHA256: bee1a9d8e2aaac8a52e834f6732d3d38f0865a487c319f20430f3c96b8680ab0
 
 Package: com.kvlabs.python3119
 Name: KVLabs Python 3.11.9
