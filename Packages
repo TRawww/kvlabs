@@ -65,7 +65,7 @@ SHA256: 61eb1528d5301e866a2e476adaecaa10609ee3c93e0f7b84dcd130ba0e38a2f4
 
 Package: com.kvlabs.hermes-runtime
 Name: KVLabs Hermes Runtime
-Version: 0.16.2-1
+Version: 0.16.3-1
 Architecture: iphoneos-arm
 Section: Development
 Priority: optional
@@ -76,11 +76,11 @@ Description: Reproducible Hermes runtime for iOS 12 checkm8/Substrate systems
  Installs Hermes and its Python dependencies into /usr/local/lib/hermes-ios.
  Mutable state and logs are kept outside the runtime tree under /var/mobile/Library/Hermes-iOS.
  Manual control, autostart, and Settings UI are provided by separate packages.
- Includes iOS-safe psutil shim and SQLite trigram fallback for iOS 12.
+ Includes iOS-safe psutil shim, SQLite trigram fallback for iOS 12, and Codex gpt-5.5 85% compression default.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-runtime_0.16.2-1_iphoneos-arm.deb
-Size: 23321664
-SHA256: 588b3a228e0ffd79bab6b0bb4c989d6d3973a87e502d2576a70fbcbd29dd7763
+Filename: debs/com.kvlabs.hermes-runtime_0.16.3-1_iphoneos-arm.deb
+Size: 23436362
+SHA256: d9bf39f13f8f3f6fb6343f8ffc323900ce1c2ae8789ae76f2f8788b2576beb65
 
 Package: com.kvlabs.python3119
 Name: KVLabs Python 3.11.9
