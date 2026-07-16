@@ -1,0 +1,9 @@
+Origin: KVLabs
+Label: KVLabs
+Suite: stable
+Version: 1.0
+Codename: kvlabs
+Architectures: iphoneos-arm
+Components: main
+Description: KVLabs iOS jailbreak packages
+Date: Wed, 15 Jul 2026 22:30:24 -0400

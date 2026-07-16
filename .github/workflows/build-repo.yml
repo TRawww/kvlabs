@@ -1,0 +1,24 @@
+name: Build jailbreak repo index
+
+on:
+  push:
+    paths:
+      - 'debs/**'
+      - 'scripts/build_repo.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Packages index
+        run: python3 scripts/build_repo.py
+      - name: Commit generated index
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: build jailbreak repo index
+          file_pattern: 'Packages Packages.gz Release'
