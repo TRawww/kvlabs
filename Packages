@@ -18,20 +18,20 @@ SHA256: bcb33c49c19a9f5ba6ff9c42ff2b8c969a42ccb889987fec510dfea34878d1ee
 
 Package: com.kvlabs.hermes-ios-settings
 Name: Hermes-iOS Settings
-Version: 0.1.0-1
+Version: 0.1.1-1
 Architecture: iphoneos-arm
 Section: System
 Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>= 0.1.0-1), com.kvlabs.hermes-ios-status (>= 0.1.0-1)
+Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>= 0.1.1-1), com.kvlabs.hermes-ios-status (>= 0.1.0-1)
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
 Description: Hermes-iOS PreferenceLoader settings pane
- Adds a Hermes-iOS Settings pane that identifies the platform separately from
- the active agent and points to Hermes-iOS control, config, and status paths.
+ Adds a compiled Hermes-iOS Settings pane that identifies the platform separately
+ from the active agent and reads live Hermes-iOS status.json fields.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-ios-settings_0.1.0-1_iphoneos-arm.deb
-Size: 7838
-SHA256: 9b6e89af2129bddb7098a1ac04880fe553f2bd1756271f056346ecf47c462758
+Filename: debs/com.kvlabs.hermes-ios-settings_0.1.1-1_iphoneos-arm.deb
+Size: 11524
+SHA256: 35cb730c224a7c34e50665079a83a0fade1837aaddf079f0314a2924cf43853c
 
 Package: com.kvlabs.hermes-ios-status
 Name: Hermes-iOS Status Bus
