@@ -253,3 +253,17 @@ Homepage: https://trawww.github.io/kvlabs/
 Filename: debs/com.kvlabs.python3119_3.11.9-1_iphoneos-arm.deb
 Size: 25586050
 SHA256: d22ba5f363660521e800ab4d2bc63f410d72f2901378f1ccb0ca5f44d24f4d6a
+
+Package: com.kvlabs.sparrow-usb-perch
+Name: Sparrow USB Perch
+Version: 0.2.0-1
+Architecture: iphoneos-arm
+Description: Sparrow USB Perch helper, iPhone USB IP LaunchDaemon, and PreferenceLoader settings pane
+Maintainer: Knullvoid Labs <root@localhost>
+Author: Sparrow
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, openssh-client, com.kvlabs.python3119 (>= 3.11.9-1)
+Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.0-1_iphoneos-arm.deb
+Size: 9198
+SHA256: 3c074e801456d5e3f1dbe36ae1da3f68536e514182071e8428f7e3e74cbcbdf6
