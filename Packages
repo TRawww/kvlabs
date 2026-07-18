@@ -319,6 +319,20 @@ Filename: debs/com.kvlabs.nordmesh-ui_1.1.8-1_iphoneos-arm.deb
 Size: 12460
 SHA256: dbc59a53d584097623dbf6d04d0d0995cab56e406d990ead904f34c48511dd79
 
+Package: com.kvlabs.nordmesh-ui
+Name: KVLabs NordMesh UI
+Version: 1.1.9-1
+Architecture: iphoneos-arm
+Description: Dynamic Meshnet Settings pane plus safer SpringBoard status-bar subview indicator
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: Sparrow
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.12-1)
+Filename: debs/com.kvlabs.nordmesh-ui_1.1.9-1_iphoneos-arm.deb
+Size: 13048
+SHA256: 3e173b064662ee00e2724b41e03e70d591fbbbf206906e13b2a44cb140074379
+
 Package: com.kvlabs.python3119
 Name: KVLabs Python 3.11.9
 Version: 3.11.9-1
