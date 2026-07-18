@@ -184,6 +184,20 @@ Filename: debs/com.kvlabs.nordmesh-core_1.1.7-1_iphoneos-arm.deb
 Size: 3085084
 SHA256: 73520442cee7a130fb636a4a3a82dd0a40ea7dc133ee29d79a70ca02806415dd
 
+Package: com.kvlabs.nordmesh-core
+Name: KVLabs NordMesh Core
+Version: 1.1.8-1
+Architecture: iphoneos-arm
+Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow with root-backed Settings control
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: Sparrow
+Section: Networking
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
+Filename: debs/com.kvlabs.nordmesh-core_1.1.8-1_iphoneos-arm.deb
+Size: 3129018
+SHA256: e1e84f05d84a1d13fc11aaeb474aa44c6fca2815c7862d62e56b08086577683b
+
 Package: com.kvlabs.nordmesh-ui
 Name: KVLabs NordMesh Settings
 Version: 1.0.0-1
@@ -234,6 +248,20 @@ Homepage: https://trawww.github.io/kvlabs/
 Filename: debs/com.kvlabs.nordmesh-ui_1.1.3-1_iphoneos-arm.deb
 Size: 7750
 SHA256: bee1a9d8e2aaac8a52e834f6732d3d38f0865a487c319f20430f3c96b8680ab0
+
+Package: com.kvlabs.nordmesh-ui
+Name: KVLabs NordMesh UI
+Version: 1.1.4-1
+Architecture: iphoneos-arm
+Description: PreferenceLoader panel and Substrate VPN indicator bridge for KVLabs NordMesh with token, peers, and live status rows
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: Sparrow
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.8-1)
+Filename: debs/com.kvlabs.nordmesh-ui_1.1.4-1_iphoneos-arm.deb
+Size: 8340
+SHA256: 449a4d3e944d541f0aa51b04157ae34942267412dac7a69897bd12b20aa73b14
 
 Package: com.kvlabs.python3119
 Name: KVLabs Python 3.11.9
