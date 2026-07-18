@@ -101,6 +101,20 @@ SHA256: 4ff5318d91264fb1c80300d7783e228d7c57718d2fb8bb03e8fb3a5b64a3069a
 
 Package: com.kvlabs.nordmesh-core
 Name: KVLabs NordMesh Core
+Version: 1.1.12-1
+Architecture: iphoneos-arm
+Description: Nord Meshnet control layer plus fixed writable KVLabs VPN icon helper
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: Sparrow
+Section: Networking
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
+Filename: debs/com.kvlabs.nordmesh-core_1.1.12-1_iphoneos-arm.deb
+Size: 3130410
+SHA256: 9c292ce943ed581226e7d3a7d94d42c08c96b31093676d6bd8502c9c81dc2d1e
+
+Package: com.kvlabs.nordmesh-core
+Name: KVLabs NordMesh Core
 Version: 1.1.2-1
 Architecture: iphoneos-arm
 Section: Networking
@@ -323,3 +337,17 @@ Depends: firmware (>= 12.0), preferenceloader, openssh-client, com.kvlabs.python
 Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.0-1_iphoneos-arm.deb
 Size: 9198
 SHA256: 3c074e801456d5e3f1dbe36ae1da3f68536e514182071e8428f7e3e74cbcbdf6
+
+Package: com.kvlabs.sparrow-usb-perch
+Name: Sparrow USB Perch
+Version: 0.2.2-1
+Architecture: iphoneos-arm
+Description: Sparrow USB Perch helper with live Settings updates and VPN icon perch-source integration
+Maintainer: Knullvoid Labs <root@localhost>
+Author: Sparrow
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, openssh-client, com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.nordmesh-core (>= 1.1.12-1)
+Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.2-1_iphoneos-arm.deb
+Size: 9074
+SHA256: 1133969918ecaf860b53453cc88b6d0758c6fd548d825c31106a623b27251914
