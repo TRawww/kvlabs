@@ -115,6 +115,20 @@ SHA256: 9c292ce943ed581226e7d3a7d94d42c08c96b31093676d6bd8502c9c81dc2d1e
 
 Package: com.kvlabs.nordmesh-core
 Name: KVLabs NordMesh Core
+Version: 1.1.13-1
+Architecture: iphoneos-arm
+Description: Nord Meshnet control layer with DERP/WG send-lock bridge repair
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: Sparrow
+Section: Networking
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
+Filename: debs/com.kvlabs.nordmesh-core_1.1.13-1_iphoneos-arm.deb
+Size: 5085356
+SHA256: 6239c569857bf1191d9b8e411c188dd7dda8f310140da6fc029845eefd9b3242
+
+Package: com.kvlabs.nordmesh-core
+Name: KVLabs NordMesh Core
 Version: 1.1.2-1
 Architecture: iphoneos-arm
 Section: Networking
