@@ -16,7 +16,7 @@ SHA256: 191c4dd06e605b3337bb2d2b819bc0eafc814046b90d6d4f5eea7c72961efdb3
 
 Package: com.kvlabs.hermes-ios-control
 Name: Hermes-iOS Control
-Version: 0.1.4-1
+Version: 0.1.6-1
 Architecture: iphoneos-arm
 Section: System
 Priority: optional
@@ -26,9 +26,9 @@ Author: KVLabs
 Description: Hermes-iOS platform control layer
  Provides hermes-iosctl and start/stop/restart/status/doctor commands. Status probes Telegram Bot API directly when available.
 Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.hermes-ios-control_0.1.4-1_iphoneos-arm.deb
-Size: 4802
-SHA256: f8c2c569103c2571a329b49d6ba1d7741971264101b715de373006dd84075f95
+Filename: debs/com.kvlabs.hermes-ios-control_0.1.6-1_iphoneos-arm.deb
+Size: 5674
+SHA256: 125459c28ed7aea60dbbf77e40668219539eaf01717b29ae0fa37ff0961f7629
 
 Package: com.kvlabs.hermes-ios-settings
 Name: Hermes-iOS Settings
@@ -401,28 +401,14 @@ SHA256: d22ba5f363660521e800ab4d2bc63f410d72f2901378f1ccb0ca5f44d24f4d6a
 
 Package: com.kvlabs.sparrow-usb-perch
 Name: Sparrow USB Perch
-Version: 0.2.0-1
+Version: 0.2.4-1
 Architecture: iphoneos-arm
-Description: Sparrow USB Perch helper, iPhone USB IP LaunchDaemon, and PreferenceLoader settings pane
-Maintainer: Knullvoid Labs <root@localhost>
-Author: Sparrow
-Section: Utilities
-Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, openssh-client, com.kvlabs.python3119 (>= 3.11.9-1)
-Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.0-1_iphoneos-arm.deb
-Size: 9198
-SHA256: 3c074e801456d5e3f1dbe36ae1da3f68536e514182071e8428f7e3e74cbcbdf6
-
-Package: com.kvlabs.sparrow-usb-perch
-Name: Sparrow USB Perch
-Version: 0.2.2-1
-Architecture: iphoneos-arm
-Description: Sparrow USB Perch helper with live Settings updates and VPN icon perch-source integration
+Description: Sparrow USB Perch helper with crash-safe Settings lifecycle, atomic status JSON, live updates, and VPN icon perch-source integration
 Maintainer: Knullvoid Labs <root@localhost>
 Author: Sparrow
 Section: Utilities
 Priority: optional
 Depends: firmware (>= 12.0), preferenceloader, openssh-client, com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.nordmesh-core (>= 1.1.12-1)
-Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.2-1_iphoneos-arm.deb
-Size: 9074
-SHA256: 1133969918ecaf860b53453cc88b6d0758c6fd548d825c31106a623b27251914
+Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.4-1_iphoneos-arm.deb
+Size: 9076
+SHA256: 11503f079a9b7643c5ce4ffe6143632ce555ed518483e8b21fe2476b3c53bfe4
