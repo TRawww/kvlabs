@@ -30,6 +30,22 @@ Filename: debs/com.kvlabs.hermes-ios-control_0.1.6-1_iphoneos-arm.deb
 Size: 5674
 SHA256: 125459c28ed7aea60dbbf77e40668219539eaf01717b29ae0fa37ff0961f7629
 
+Package: com.kvlabs.hermes-ios-control
+Name: Hermes-iOS Control
+Version: 0.1.8-1
+Architecture: iphoneos-arm
+Section: System
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.hermes-runtime (>= 0.16.1-1), com.kvlabs.python3119 (>= 3.11.9-1)
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Description: Hermes-iOS platform control layer
+ Provides hermes-iosctl and start/stop/restart/status/doctor commands. Status probes Telegram Bot API directly when available.
+Homepage: https://trawww.github.io/kvlabs/
+Filename: debs/com.kvlabs.hermes-ios-control_0.1.8-1_iphoneos-arm.deb
+Size: 5766
+SHA256: b158a0db81ebdf3c3469fd85753909690f56c5c640437e585cf715c48a2238b3
+
 Package: com.kvlabs.hermes-ios-settings
 Name: Hermes-iOS Settings
 Version: 0.1.12-1
@@ -45,6 +61,22 @@ Homepage: https://trawww.github.io/kvlabs/
 Filename: debs/com.kvlabs.hermes-ios-settings_0.1.12-1_iphoneos-arm.deb
 Size: 12762
 SHA256: 3f5bc4ae36633958d8b2236a030bf0be61debc4abe2a682a2e102c82e9221196
+
+Package: com.kvlabs.hermes-ios-settings
+Name: Hermes-iOS Settings
+Version: 0.1.13-1
+Architecture: iphoneos-arm
+Section: System
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, com.kvlabs.hermes-ios-control (>= 0.1.3-1), com.kvlabs.hermes-ios-status (>= 0.1.1-1), com.kvlabs.hermes-ios-autostart (>= 0.1.1-1)
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Description: Hermes-iOS PreferenceLoader settings pane
+ Live status, manual controls, and boot autostart controls for Hermes-iOS.
+Homepage: https://trawww.github.io/kvlabs/
+Filename: debs/com.kvlabs.hermes-ios-settings_0.1.13-1_iphoneos-arm.deb
+Size: 12912
+SHA256: c0fd223f01f6b1fe3c207efd3541f1f2e68e81b856622f0a32a8d882bebf50fa
 
 Package: com.kvlabs.hermes-ios-status
 Name: Hermes-iOS Status Bus
@@ -159,6 +191,20 @@ Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.her
 Filename: debs/com.kvlabs.nordmesh-core_1.1.14-1_iphoneos-arm.deb
 Size: 5085370
 SHA256: 5683460b9240e8bc995c293ebf2c689bb38fafc3d3ad228ff79e21172a6ef165
+
+Package: com.kvlabs.nordmesh-core
+Name: KVLabs NordMesh Core
+Version: 1.1.15-1
+Architecture: iphoneos-arm
+Description: Nord Meshnet core with status-icon source aggregation and position preferences
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: Sparrow
+Section: Networking
+Priority: optional
+Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
+Filename: debs/com.kvlabs.nordmesh-core_1.1.15-1_iphoneos-arm.deb
+Size: 5108396
+SHA256: 55f5a032fa1f83fbfdd8a1f58a0da7e5a483946b2deb613d09a8aa98c5d3b2a4
 
 Package: com.kvlabs.nordmesh-core
 Name: KVLabs NordMesh Core
@@ -289,6 +335,20 @@ Homepage: https://trawww.github.io/kvlabs/
 Filename: debs/com.kvlabs.nordmesh-ui_1.0.0-1_iphoneos-arm.deb
 Size: 7646
 SHA256: 8190e83720c0cb1c28b858eae90d8ec81af353e5b8630b1bcaabb01c426fc78e
+
+Package: com.kvlabs.nordmesh-ui
+Name: KVLabs NordMesh UI
+Version: 1.1.10-1
+Architecture: iphoneos-arm
+Description: Dynamic Meshnet Settings pane plus all-surface SpringBoard VPN indicator
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: Sparrow
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.15-1)
+Filename: debs/com.kvlabs.nordmesh-ui_1.1.10-1_iphoneos-arm.deb
+Size: 13240
+SHA256: defc6a3121b7991c6320da7de11e2f4deed9d43c904a7d76f2ad0adecdd48fdf
 
 Package: com.kvlabs.nordmesh-ui
 Name: KVLabs NordMesh Settings
