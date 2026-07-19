@@ -135,217 +135,17 @@ SHA256: 455c01f770ffbd6e63ef34baab1cd4e0df3830a663ec77d1490f780d2e734d00
 
 Package: com.kvlabs.nordmesh-core
 Name: KVLabs NordMesh Core
-Version: 1.0.0-1
-Architecture: iphoneos-arm
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: KVLabs
-Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow
- Installs nordmeshctl setuid helper, sanitized status/cache paths, and safe enable/disable/status plumbing.
- No credentials, tokens, sessions, or old runtime state are bundled.
-Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.nordmesh-core_1.0.0-1_iphoneos-arm.deb
-Size: 7864
-SHA256: 4ff5318d91264fb1c80300d7783e228d7c57718d2fb8bb03e8fb3a5b64a3069a
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.12-1
-Architecture: iphoneos-arm
-Description: Nord Meshnet control layer plus fixed writable KVLabs VPN icon helper
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Filename: debs/com.kvlabs.nordmesh-core_1.1.12-1_iphoneos-arm.deb
-Size: 3130410
-SHA256: 9c292ce943ed581226e7d3a7d94d42c08c96b31093676d6bd8502c9c81dc2d1e
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.13-1
-Architecture: iphoneos-arm
-Description: Nord Meshnet control layer with DERP/WG send-lock bridge repair
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Filename: debs/com.kvlabs.nordmesh-core_1.1.13-1_iphoneos-arm.deb
-Size: 5085356
-SHA256: 6239c569857bf1191d9b8e411c188dd7dda8f310140da6fc029845eefd9b3242
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.14-1
-Architecture: iphoneos-arm
-Description: Nord Meshnet DERP/WG send-lock bridge and clean restart repair
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Filename: debs/com.kvlabs.nordmesh-core_1.1.14-1_iphoneos-arm.deb
-Size: 5085370
-SHA256: 5683460b9240e8bc995c293ebf2c689bb38fafc3d3ad228ff79e21172a6ef165
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.15-1
-Architecture: iphoneos-arm
-Description: Nord Meshnet core with status-icon source aggregation and position preferences
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Filename: debs/com.kvlabs.nordmesh-core_1.1.15-1_iphoneos-arm.deb
-Size: 5108396
-SHA256: 55f5a032fa1f83fbfdd8a1f58a0da7e5a483946b2deb613d09a8aa98c5d3b2a4
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.16-1
-Architecture: iphoneos-arm
-Description: Nord Meshnet core with configurable status-icon anchoring and X/Y positioning
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Filename: debs/com.kvlabs.nordmesh-core_1.1.16-1_iphoneos-arm.deb
-Size: 5119324
-SHA256: ea85b9ea6f6fa5f304912ffdc538c51562ba92562dce9ae43d067792d285a133
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.17-1
+Version: 1.1.18-1
 Architecture: iphoneos-arm
 Description: Nord Meshnet core with locked coordinates and live USB perch detection
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Filename: debs/com.kvlabs.nordmesh-core_1.1.17-1_iphoneos-arm.deb
-Size: 5120148
-SHA256: b7603a37de3e7d77e99377c5258cbaa957eb92f7658802f4fa2be06a90d64011
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.2-1
-Architecture: iphoneos-arm
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
 Author: KVLabs
-Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow
- Installs nordmeshctl, signed WireGuard userspace tools, DERP bridge launcher, sanitized status/cache paths, and safe enable/disable/status plumbing.
- No credentials, tokens, sessions, or old runtime state are bundled.
-Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.nordmesh-core_1.1.2-1_iphoneos-arm.deb
-Size: 1178044
-SHA256: 599b57918a24d26737d3f373b4dd018dd8e8ba04495a556df70d9b5640c647d5
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.3-1
-Architecture: iphoneos-arm
 Section: Networking
 Priority: optional
 Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: KVLabs
-Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow
- Installs nordmeshctl, signed WireGuard userspace tools, DERP bridge launcher, sanitized status/cache paths, and safe enable/disable/status plumbing.
- No credentials, tokens, sessions, or old runtime state are bundled.
-Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.nordmesh-core_1.1.3-1_iphoneos-arm.deb
-Size: 1178080
-SHA256: f112fb3d570f571c02a873729e8d4997c76986db04145e1e23d3e37df60a4d31
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.4-1
-Architecture: iphoneos-arm
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: KVLabs
-Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow
- Installs nordmeshctl, signed WireGuard userspace tools, DERP bridge launcher, sanitized status/cache paths, and safe enable/disable/status plumbing.
- No credentials, tokens, sessions, or old runtime state are bundled.
-Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.nordmesh-core_1.1.4-1_iphoneos-arm.deb
-Size: 3079588
-SHA256: 92830ca1380f150e8544678ae3cf30942ed788b2f6cdb062f4870ce9f9adade1
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.6-1
-Architecture: iphoneos-arm
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: KVLabs
-Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow
- Installs nordmeshctl, signed WireGuard userspace tools, DERP bridge launcher, sanitized status/cache paths, and safe enable/disable/status plumbing.
- No credentials, tokens, sessions, or old runtime state are bundled.
-Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.nordmesh-core_1.1.6-1_iphoneos-arm.deb
-Size: 3079642
-SHA256: 8df2ba13e7a53341042672ebb468c71db46c736234b1ea12dea939d8ed4ed67f
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.7-1
-Architecture: iphoneos-arm
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: KVLabs
-Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow
- Installs nordmeshctl, signed WireGuard userspace tools, DERP bridge launcher, sanitized status/cache paths, and safe enable/disable/status plumbing.
- No credentials, tokens, sessions, or old runtime state are bundled.
-Homepage: https://trawww.github.io/kvlabs/
-Filename: debs/com.kvlabs.nordmesh-core_1.1.7-1_iphoneos-arm.deb
-Size: 3085084
-SHA256: 73520442cee7a130fb636a4a3a82dd0a40ea7dc133ee29d79a70ca02806415dd
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.8-1
-Architecture: iphoneos-arm
-Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow with root-backed Settings control
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Filename: debs/com.kvlabs.nordmesh-core_1.1.8-1_iphoneos-arm.deb
-Size: 3129018
-SHA256: e1e84f05d84a1d13fc11aaeb474aa44c6fca2815c7862d62e56b08086577683b
-
-Package: com.kvlabs.nordmesh-core
-Name: KVLabs NordMesh Core
-Version: 1.1.9-1
-Architecture: iphoneos-arm
-Description: Standalone Nord Meshnet control layer for Hermes-iOS/Sparrow with dynamic Meshnet peer/status refresh
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Networking
-Priority: optional
-Depends: firmware (>= 12.0), com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.hermes-runtime (>= 0.16.3-1)
-Filename: debs/com.kvlabs.nordmesh-core_1.1.9-1_iphoneos-arm.deb
-Size: 3129272
-SHA256: f2bc4f5d67ca51ce524da45bf72ce7c1b90b6762a295ed56657256589e19e371
+Filename: debs/com.kvlabs.nordmesh-core_1.1.18-1_iphoneos-arm.deb
+Size: 5086216
+SHA256: fb36481db82e881550390dd7b359d087f30c85d1c05ad60cf87c8c9091e4c8e3
 
 Package: com.kvlabs.nordmesh-ui
 Name: KVLabs NordMesh Settings
@@ -366,45 +166,17 @@ SHA256: 8190e83720c0cb1c28b858eae90d8ec81af353e5b8630b1bcaabb01c426fc78e
 
 Package: com.kvlabs.nordmesh-ui
 Name: KVLabs NordMesh UI
-Version: 1.1.10-1
-Architecture: iphoneos-arm
-Description: Dynamic Meshnet Settings pane plus all-surface SpringBoard VPN indicator
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.15-1)
-Filename: debs/com.kvlabs.nordmesh-ui_1.1.10-1_iphoneos-arm.deb
-Size: 13240
-SHA256: defc6a3121b7991c6320da7de11e2f4deed9d43c904a7d76f2ad0adecdd48fdf
-
-Package: com.kvlabs.nordmesh-ui
-Name: KVLabs NordMesh UI
-Version: 1.1.11-1
-Architecture: iphoneos-arm
-Description: Dynamic Meshnet Settings pane with left-anchored adjustable SpringBoard VPN indicator
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.16-1)
-Filename: debs/com.kvlabs.nordmesh-ui_1.1.11-1_iphoneos-arm.deb
-Size: 13672
-SHA256: 8881821096d23a52c69a1a18c26432abc4fd6a5f4b1caff131cb40b4fe84f705
-
-Package: com.kvlabs.nordmesh-ui
-Name: KVLabs NordMesh UI
-Version: 1.1.12-1
+Version: 1.1.13-1
 Architecture: iphoneos-arm
 Description: Dynamic Meshnet Settings pane with saveable SpringBoard VPN indicator coordinates
 Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
+Author: KVLabs
 Section: Tweaks
 Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.17-1)
-Filename: debs/com.kvlabs.nordmesh-ui_1.1.12-1_iphoneos-arm.deb
-Size: 12758
-SHA256: 08c272fe7837bdd796b71ba410ceb8743bdc107bf47d97ed05b3106d4d2ac6d4
+Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.18-1)
+Filename: debs/com.kvlabs.nordmesh-ui_1.1.13-1_iphoneos-arm.deb
+Size: 12740
+SHA256: d9eaf30033bce7c84c321ea299714837b4f98e66d3b5b866a3dd3d6a52a45d56
 
 Package: com.kvlabs.nordmesh-ui
 Name: KVLabs NordMesh Settings
@@ -440,62 +212,6 @@ Filename: debs/com.kvlabs.nordmesh-ui_1.1.3-1_iphoneos-arm.deb
 Size: 7750
 SHA256: bee1a9d8e2aaac8a52e834f6732d3d38f0865a487c319f20430f3c96b8680ab0
 
-Package: com.kvlabs.nordmesh-ui
-Name: KVLabs NordMesh UI
-Version: 1.1.4-1
-Architecture: iphoneos-arm
-Description: PreferenceLoader panel and Substrate VPN indicator bridge for KVLabs NordMesh with token, peers, and live status rows
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.8-1)
-Filename: debs/com.kvlabs.nordmesh-ui_1.1.4-1_iphoneos-arm.deb
-Size: 8340
-SHA256: 449a4d3e944d541f0aa51b04157ae34942267412dac7a69897bd12b20aa73b14
-
-Package: com.kvlabs.nordmesh-ui
-Name: KVLabs NordMesh UI
-Version: 1.1.5-1
-Architecture: iphoneos-arm
-Description: Dynamic PreferenceLoader Meshnet pane with secure token field, live toggle, peer Nord IPs, and VPN indicator bridge
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.9-1)
-Filename: debs/com.kvlabs.nordmesh-ui_1.1.5-1_iphoneos-arm.deb
-Size: 9924
-SHA256: b1dc2ddac6865462638018e2e1f878e88d63be19677b26a54ab32091001a9db0
-
-Package: com.kvlabs.nordmesh-ui
-Name: KVLabs NordMesh UI
-Version: 1.1.8-1
-Architecture: iphoneos-arm
-Description: Dynamic Meshnet Settings pane plus dirty SpringBoard overlay VPN/Perch indicator
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.12-1)
-Filename: debs/com.kvlabs.nordmesh-ui_1.1.8-1_iphoneos-arm.deb
-Size: 12460
-SHA256: dbc59a53d584097623dbf6d04d0d0995cab56e406d990ead904f34c48511dd79
-
-Package: com.kvlabs.nordmesh-ui
-Name: KVLabs NordMesh UI
-Version: 1.1.9-1
-Architecture: iphoneos-arm
-Description: Dynamic Meshnet Settings pane plus safer SpringBoard status-bar subview indicator
-Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
-Author: Sparrow
-Section: Tweaks
-Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.12-1)
-Filename: debs/com.kvlabs.nordmesh-ui_1.1.9-1_iphoneos-arm.deb
-Size: 13048
-SHA256: 3e173b064662ee00e2724b41e03e70d591fbbbf206906e13b2a44cb140074379
-
 Package: com.kvlabs.python3119
 Name: KVLabs Python 3.11.9
 Version: 3.11.9-1
@@ -514,17 +230,3 @@ Homepage: https://trawww.github.io/kvlabs/
 Filename: debs/com.kvlabs.python3119_3.11.9-1_iphoneos-arm.deb
 Size: 25586050
 SHA256: d22ba5f363660521e800ab4d2bc63f410d72f2901378f1ccb0ca5f44d24f4d6a
-
-Package: com.kvlabs.sparrow-usb-perch
-Name: Sparrow USB Perch
-Version: 0.2.5-1
-Architecture: iphoneos-arm
-Description: Sparrow USB Perch helper with crash-safe Settings lifecycle, atomic status JSON, live updates, and VPN icon perch-source integration
-Maintainer: Knullvoid Labs <root@localhost>
-Author: Sparrow
-Section: Utilities
-Priority: optional
-Depends: firmware (>= 12.0), preferenceloader, openssh-client, com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.nordmesh-core (>= 1.1.12-1)
-Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.5-1_iphoneos-arm.deb
-Size: 9220
-SHA256: f4db42635131a8e01a6796201437dea5d5dad24091458d7c7a521970ceb4a65b
