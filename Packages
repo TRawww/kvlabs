@@ -179,6 +179,20 @@ Size: 12740
 SHA256: d9eaf30033bce7c84c321ea299714837b4f98e66d3b5b866a3dd3d6a52a45d56
 
 Package: com.kvlabs.nordmesh-ui
+Name: KVLabs NordMesh UI
+Version: 1.1.14-1
+Architecture: iphoneos-arm
+Description: Dynamic Meshnet Settings pane with saveable SpringBoard VPN indicator coordinates
+Maintainer: KVLabs <https://github.com/TRawww/kvlabs>
+Author: KVLabs
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 12.0), preferenceloader, mobilesubstrate, com.kvlabs.nordmesh-core (>= 1.1.18-1)
+Filename: debs/com.kvlabs.nordmesh-ui_1.1.14-1_iphoneos-arm.deb
+Size: 13702
+SHA256: 8c2108aa6211b6a087155a112fec9b8362e0d1faa625921008a8aea91f5fb88a
+
+Package: com.kvlabs.nordmesh-ui
 Name: KVLabs NordMesh Settings
 Version: 1.1.2-1
 Architecture: iphoneos-arm
