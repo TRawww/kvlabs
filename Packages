@@ -401,7 +401,7 @@ SHA256: d22ba5f363660521e800ab4d2bc63f410d72f2901378f1ccb0ca5f44d24f4d6a
 
 Package: com.kvlabs.sparrow-usb-perch
 Name: Sparrow USB Perch
-Version: 0.2.4-1
+Version: 0.2.5-1
 Architecture: iphoneos-arm
 Description: Sparrow USB Perch helper with crash-safe Settings lifecycle, atomic status JSON, live updates, and VPN icon perch-source integration
 Maintainer: Knullvoid Labs <root@localhost>
@@ -409,6 +409,6 @@ Author: Sparrow
 Section: Utilities
 Priority: optional
 Depends: firmware (>= 12.0), preferenceloader, openssh-client, com.kvlabs.python3119 (>= 3.11.9-1), com.kvlabs.nordmesh-core (>= 1.1.12-1)
-Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.4-1_iphoneos-arm.deb
-Size: 9076
-SHA256: 11503f079a9b7643c5ce4ffe6143632ce555ed518483e8b21fe2476b3c53bfe4
+Filename: debs/com.kvlabs.sparrow-usb-perch_0.2.5-1_iphoneos-arm.deb
+Size: 9220
+SHA256: f4db42635131a8e01a6796201437dea5d5dad24091458d7c7a521970ceb4a65b
